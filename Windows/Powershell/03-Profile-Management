@@ -1,0 +1,23 @@
+creating profile
+
+  Set-AWSCredentials -AccessKey "" -SecretKey "" -StoreAs dev
+
+=====================================================================================================================
+
+List Profile
+
+  Get-AWSCredentials -ListStoredCredentials
+
+======================================================================================================================
+
+Remove Profile
+
+  Clear-AWSCredentials -StoredCredentials MyProfileName
+
+======================================================================================================================
+
+Set Default profile
+
+  Initialize-AWSDefaults -ProfileName MyProfileName -Region us-west-2
+
+======================================================================================================================
