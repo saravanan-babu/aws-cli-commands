@@ -1,0 +1,17 @@
+Import Powershell Module
+
+  import-module "C:\Program Files (x86)\AWS Tools\PowerShell\AWSPowerShell\AWSPowerShell.psd1"
+
+
+To verify that the module was loaded
+
+  Get-Module
+  
+  
+Verification
+
+  Get Version
+
+  Get-AWSPowerShellVersion
+
+  Get-AWSPowerShellVersion -ListServices
