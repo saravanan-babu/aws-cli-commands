@@ -1,0 +1,3 @@
+AWS CLI  Uninstall
+
+  pip uninstall awscli
