@@ -1,0 +1,28 @@
+S3 New bucket
+
+ New-S3Bucket -BucketName test-storage -Region us-west-2
+
+================================================================================================================
+
+Get bucket location
+
+ Get-S3BucketLocation -BucketName test-storage
+
+=================================================================================================================
+Remove S3 Bucket
+
+  Remove-S3Bucket -BucketName test-storage
+
+==================================================================================================================
+
+Read file from s3 and write in local
+
+  Read-S3Object -BucketName test-storage -Key "" -File c:\test.xml
+
+===================================================================================================================
+
+Write File to S3
+
+  Write-S3Object -BucketName test-storage -Key test-file -File C:\Info.txt
+  
+===================================================================================================================
