@@ -1,0 +1,24 @@
+Software Requirement
+  Python 2 version 2.6.5+ or Python 3 version 3.3+
+  OS: Centos 7
+  
+=============================================================================
+Install PIP (package management system for Python)
+  curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+  python get-pip.py
+  
+Verify PIP Installation
+  pip -v
+ 
+==============================================================================
+Install AWS CLI
+    pip install awscli
+ 
+ Verify Installation
+    aws --version
+ 
+ ===============================================================================
+  
+ 
+ 
+  
