@@ -10,3 +10,13 @@ AWS Secret Access Key [None]: Provide Secret Access Key
 Default region name [None]: Provide Default Region
 
 Default output format [None]: json  
+
+
+=================================================================================
+
+To show your current configuration values:
+
+List the AWS CLI configuration data. This command will show you the current configuration data. For each configuration item, 
+it will show you the value, where the configuration value was retrieved, and the configuration variable name.
+
+  aws configure list
