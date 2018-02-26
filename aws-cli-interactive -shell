@@ -1,0 +1,15 @@
+aws-shell - The interactive productivity booster for the AWS CLI
+
+url : https://github.com/awslabs/aws-shell
+
+Install:
+
+  sudo pip install aws-shell
+  
+Open AWS-Shell
+  
+  aws-shell
+  
+Upgrading the aws-shell
+
+  	sudo pip install --upgrade aws-shell
